@@ -1,0 +1,10 @@
+#########################
+### PII Code Scrubber ###
+#########################
+
+# Checks permissions and ownership for given file
+ls -la
+# Prints permission and ownership output
+# Sets -f variable for filepath input
+# Checks code for keywords and formats (ex. api, password, name, address, IPv4 etc./ 0.0.0.0, 485 W 7200 S, 800-123-4567, 40.6244,-200.2567 etc.)
+# Prints lines that contain PII and lists line #
